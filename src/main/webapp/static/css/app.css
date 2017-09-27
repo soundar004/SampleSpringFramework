@@ -1,0 +1,135 @@
+body, #mainWrapper {
+	height: 70%;
+	background-color: rgb(245, 245, 245);
+}
+
+body, .form-control {
+	font-size: 12px !important;
+}
+
+.floatRight {
+	float: right;
+	margin-right: 18px;
+}
+
+.has-error {
+	color: red;
+}
+
+.formcontainer {
+	background-color: #DAE8E8;
+	padding: 20px;
+}
+
+.tablecontainer {
+	padding-left: 20px;
+}
+
+.generic-container {
+	width: 80%;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #EAE7E7;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 0 30px black;
+}
+
+.custom-width {
+	width: 80px !important;
+}
+
+.zui-table {
+	background-color: #DDEFEF;
+	border: 1px solid black;
+	color: #336B6B;
+	padding: 10px;
+	text-align: left;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.zui-table th {
+	text-align: center;
+}
+
+/* 
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+ */
+table.blueTable {
+	width: 97%;
+	margin-left: 1%;
+	border-radius: 0 10px 0 0;
+	border-color: #a0b0ce;
+	/* font-style: inherit; */
+	font-size: medium;
+	font-family: monospace;
+}
+
+.blueTable th {
+	text-align: center;
+	color: #336B6B;
+	background-color: #a0b0ce;
+}
+
+.blueTable tr {
+	line-height: 71px;
+	border-color: #a0b0ce;
+}
